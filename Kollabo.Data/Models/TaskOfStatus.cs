@@ -9,7 +9,7 @@ using System.Text;
 namespace Kollabo.Data.Models
 {
     [PrimaryKey(nameof(Id))]
-    public class TaskStatus
+    public class TaskOfStatus
     {
         public int Id { get; set; }
 
