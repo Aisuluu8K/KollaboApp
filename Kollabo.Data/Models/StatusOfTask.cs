@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.IO;
@@ -8,8 +7,7 @@ using System.Text;
 
 namespace Kollabo.Data.Models
 {
-    [PrimaryKey(nameof(Id))]
-    public class TaskStatus
+    public class StatusOfTask
     {
         public int Id { get; set; }
 
