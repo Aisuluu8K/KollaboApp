@@ -12,13 +12,13 @@ namespace Kollabo.Data.Models
     {
 
         [MaxLength(50)]
-        public string Name { get; set; }
+        public string LastName { get; set; }
 
         [MaxLength(50)]
         public string FirstName { get; set; }
 
         [MaxLength(50)]
         public string Patronymic { get; set; }
-        public string Password { get; set; }
+
     }
 }
