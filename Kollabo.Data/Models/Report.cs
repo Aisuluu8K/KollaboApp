@@ -10,12 +10,10 @@ namespace Kollabo.Data.Models
     public class Report
     {
         public int Id { get; set; }
-
-        [MaxLength(50)]
         public string Name { get; set; }
-        public List<UserTask> tasks { get; set; }
+        public List<UserTask> Tasks { get; set; }
         public DateTime CreateDate { get; set; }
-        public int statusID { get; set; }
-        public Status status { get; set; }
+        public int StatusID { get; set; }
+        public Status Status { get; set; }
     }
 }

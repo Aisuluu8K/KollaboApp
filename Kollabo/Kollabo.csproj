@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Kollabo.Data\Kollabo.Data.csproj" />
     <ProjectReference Include="..\Kollabo.DTO\Kollabo.DTO.csproj" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.15"/>
   </ItemGroup>
 
 </Project>

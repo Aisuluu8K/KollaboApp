@@ -8,7 +8,6 @@ using System.Text;
 
 namespace Kollabo.Data.Models
 {
-    [PrimaryKey(nameof(Id))]
     public class Status
     {
         public int Id { get; set; }

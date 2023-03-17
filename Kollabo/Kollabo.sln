@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kollabo.DTO", "..\Kollabo.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kollabo.Data", "..\Kollabo.Data\Kollabo.Data.csproj", "{8FDC327C-53FD-43E0-A7D3-9A5E96CC9E79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kollabo.CMD", "..\Kollabo.CMD\Kollabo.CMD.csproj", "{DD51E451-D838-4D31-BD6E-D52B54E709A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kollabo.CMD", "..\Kollabo.CMD\Kollabo.CMD.csproj", "{DD51E451-D838-4D31-BD6E-D52B54E709A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kollabo.BLL", "..\Kollabo.BLL\Kollabo.BLL.csproj", "{38B07B38-2CAB-4255-B7E7-3A948B3A5FF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DD51E451-D838-4D31-BD6E-D52B54E709A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD51E451-D838-4D31-BD6E-D52B54E709A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD51E451-D838-4D31-BD6E-D52B54E709A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B07B38-2CAB-4255-B7E7-3A948B3A5FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B07B38-2CAB-4255-B7E7-3A948B3A5FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B07B38-2CAB-4255-B7E7-3A948B3A5FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B07B38-2CAB-4255-B7E7-3A948B3A5FF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

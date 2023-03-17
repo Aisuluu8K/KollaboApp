@@ -11,17 +11,15 @@ namespace Kollabo.Data.Data
 {
     public class AppDbContext : IdentityDbContext<User>
     {
-        DbSet<UserTask> UsersTasks { get; set; }
-        DbSet<Report> Reports { get; set; }
-        DbSet<Status> Statuses { get; set; }
-        DbSet<TaskOfStatus> TaskOfStatuses { get; set; }
-        DbSet<TaskLVL> TaskLVLs { get; set; }
-        DbSet<User> Users { get; set; }
+        public DbSet<UserTask> UsersTasks { get; set; }
+        public DbSet<Report> Reports { get; set; }
+        public DbSet<Status> Statuses { get; set; }
+        public DbSet<TaskOfStatus> TaskOfStatuses { get; set; }
+        public DbSet<TaskLVL> TaskLVLs { get; set; }
+        public DbSet<User> Users { get; set; }
 
-        public AppDbContext(DbContextOptions<AppDbContext> options)
-            : base(options)
+        public AppDbContext(DbContextOptions options) : base(options)
         {
-            Database.EnsureCreated();
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
